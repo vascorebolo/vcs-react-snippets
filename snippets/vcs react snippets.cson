@@ -1,16 +1,49 @@
 '.source.js.jsx':
   '{ something }':
-    'prefix': 'bb'
+    'prefix': 'rcb'
     'body': '{ ${1} }'
   'stateless functional component':
     'prefix': 'rfc'
     'body': """
-    import React from 'react'
+    import React, { PropTypes } from 'react'
+    import PropTypes from 'prop-types'
 
     const ${1} = () => {
       return (
-      
+
       )
+    }
+
+    ${1}.propTypes = {
+      $2
+    }
+
+    ${1}.displayName = '${1}'
+
+    export default ${1}
+    """
+  'class component':
+    'prefix': 'rcc'
+    'body': """
+    import React, { Component } from 'react'
+    import PropTypes from 'prop-types'
+
+    class ${1} extends Component {
+      static propTypes = {
+        ${2}
+      }
+
+      static defaultProps = {
+        ${3}
+      }
+
+      state = {}
+
+      render() {
+        return (
+
+        )
+      }
     }
 
     export default ${1}
