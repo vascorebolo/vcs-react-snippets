@@ -94,3 +94,11 @@
   'import ReactDom statement':
     'prefix': 'rid'
     'body': 'import ReactDom from \'react-dom\''
+
+  'react this.props':
+    'prefix': 'rtp'
+    'body': 'this.props.${1}'
+
+  'react this.state':
+    'prefix': 'rts'
+    'body': 'this.state.${1}'

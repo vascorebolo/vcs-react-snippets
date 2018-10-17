@@ -20,3 +20,5 @@ Prefix | Description
 `rim→` | Import statement with curly braces
 `ri→`  | Import statement without curly braces
 `rid→` | Import statement for ReactDom
+`rts→` | `this.state.${}`
+`rtp→` | `this.props.${}`
