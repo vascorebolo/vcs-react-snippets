@@ -2,33 +2,35 @@
   '{ something }':
     'prefix': 'rcb'
     'body': '{ ${1} }'
+
   'stateless functional component':
     'prefix': 'rfc'
     'body': """
     import React, { PropTypes } from 'react'
     import PropTypes from 'prop-types'
 
-    const ${1} = () => {
+    const ${1:MyComponent} = () => {
       return (
 
       )
     }
 
-    ${1}.propTypes = {
+    ${1:MyComponent}.propTypes = {
       $2
     }
 
-    ${1}.displayName = '${1}'
+    ${1:MyComponent}.displayName = '${1:MyComponent}'
 
-    export default ${1}
+    export default ${1:MyComponent}
     """
-  'class component':
+
+  'classful component':
     'prefix': 'rcc'
     'body': """
     import React, { Component } from 'react'
     import PropTypes from 'prop-types'
 
-    class ${1} extends Component {
+    class ${1:MyComponent} extends Component {
       static propTypes = {
         ${2}
       }
@@ -46,5 +48,49 @@
       }
     }
 
-    export default ${1}
+    export default ${1:MyComponent}
     """
+
+  'component will mount':
+    'prefix': 'rwm'
+    'body': """
+    componentWillMount() {
+      ${1}
+    }
+    """
+
+  'component will update':
+    'prefix': 'rwu'
+    'body': """
+    componentWillUpdate() {
+      ${1}
+    }
+    """
+
+  'component did update':
+    'prefix': 'rdu'
+    'body': """
+    componentDidUpdate() {
+      ${1}
+    }
+    """
+
+  'component will receive props':
+    'prefix': 'rwr'
+    'body': """
+    componentWillReceiveProps(nextProps) {
+      ${1}
+    }
+    """
+
+  'import statement with curly braces':
+    'prefix': 'rim'
+    'body': 'import { $1 } from \'${2}\''
+
+  'import statement without curly braces':
+    'prefix': 'ri'
+    'body': 'import $1 from \'${2}\''
+
+  'import ReactDom statement':
+    'prefix': 'rid'
+    'body': 'import ReactDom from \'react-dom\''

@@ -7,3 +7,16 @@ Mostly for my own personal needs, check if it can be of any good to you 😀
 ## Usage
 Work in progress.
 It'll be finished in a near future, hopefully...
+
+Prefix | Description
+---- |:--------
+`rcb→` | Curly braces with input inside, spaced `{ input }`
+`rfc→` | React functional component
+`rcc→` | React classful component
+`rwm→` | Component will mount
+`rwu→` | Component will update
+`rdu→` | Component did update
+`rwp→` | Component will receive props
+`rim→` | Import statement with curly braces
+`ri→`  | Import statement without curly braces
+`rid→` | Import statement for ReactDom
