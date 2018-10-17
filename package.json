@@ -1,0 +1,24 @@
+{
+  "name": "vcs-react-snippets",
+  "main": "./lib/vcs-react-snippets",
+  "version": "0.0.0",
+  "description": "A useful and fruitful group of react snippets (no semi-colons here)",
+  "keywords": [
+    "react",
+    "babel",
+    "es6",
+    "js",
+    "es7",
+    "snippets"
+  ],
+  "activationCommands": {
+    "atom-workspace": "vcs-react-snippets:toggle"
+  },
+  "repository": "https://github.com/vascocsilva/vcs-react-snippets",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
