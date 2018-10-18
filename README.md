@@ -12,6 +12,7 @@ Prefix | Description
 ---- |:--------
 `rcb→` | Curly braces with input inside, spaced `{ input }`
 `rfc→` | React functional component
+`rfcp→` | React functional component , without props  
 `rcc→` | React classful component
 `rwm→` | Component will mount
 `rwu→` | Component will update
@@ -20,5 +21,8 @@ Prefix | Description
 `rim→` | Import statement with curly braces
 `ri→`  | Import statement without curly braces
 `rid→` | Import statement for ReactDom
+`rin→` | Import for react native
 `rts→` | `this.state.${}`
 `rtp→` | `this.props.${}`
+`rst→` | `const styles = {}`, often used in react native
+`rdst→` | destructuring of styles: `const {  } = styles`

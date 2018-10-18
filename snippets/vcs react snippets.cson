@@ -19,6 +19,26 @@
       $2
     }
 
+    ${1:MyComponent}.defaultPropTypes = {
+      $3
+    }
+
+    ${1:MyComponent}.displayName = '${1:MyComponent}'
+
+    export default ${1:MyComponent}
+    """
+
+  'stateless functional component, without props':
+    'prefix': 'rfcp'
+    'body': """
+    import React from 'react'
+
+    const ${1:MyComponent} = () => {
+      return (
+
+      )
+    }
+
     ${1:MyComponent}.displayName = '${1:MyComponent}'
 
     export default ${1:MyComponent}
@@ -95,6 +115,10 @@
     'prefix': 'rid'
     'body': 'import ReactDom from \'react-dom\''
 
+  'import React Native statement':
+    'prefix': 'rin'
+    'body': 'import { $1 } from \'react-native\''
+
   'react this.props':
     'prefix': 'rtp'
     'body': 'this.props.${1}'
@@ -102,3 +126,17 @@
   'react this.state':
     'prefix': 'rts'
     'body': 'this.state.${1}'
+
+  'const styles object (often used in react native)':
+    'prefix': 'rst'
+    'body': """
+    const styles = {
+      ${1:key}: {
+        ${2}
+      },
+    }
+    """
+
+  'destructuring of styles':
+    'prefix': 'rdst'
+    'body': 'const { $1 } = styles'
