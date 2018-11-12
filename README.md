@@ -24,5 +24,7 @@ Prefix | Description
 `rin→` | Import for react native
 `rts→` | `this.state.${}`
 `rtp→` | `this.props.${}`
+`rpt→` | `MyComponent.propTypes = {}`  
+`rdpt→` | `MyComponent.defaultPropTypes = {}`    
 `rst→` | `const styles = {}`, often used in react native
 `rdst→` | destructuring of styles: `const {  } = styles`

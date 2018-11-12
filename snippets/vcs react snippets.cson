@@ -123,6 +123,22 @@
     'prefix': 'rtp'
     'body': 'this.props.${1}'
 
+  'react Component.propTypes':
+    'prefix': 'rpt'
+    'body': """
+    ${1:MyComponent}.propTypes = {
+      ${2}
+    }
+    """
+
+  'react default Component.propTypes':
+    'prefix': 'rdpt'
+    'body': """
+    ${1:MyComponent}.defaultPropTypes = {
+      ${2}
+    }
+    """
+
   'react this.state':
     'prefix': 'rts'
     'body': 'this.state.${1}'
