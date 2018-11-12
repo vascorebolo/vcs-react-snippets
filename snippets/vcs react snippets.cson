@@ -134,7 +134,7 @@
   'react default Component.propTypes':
     'prefix': 'rdpt'
     'body': """
-    ${1:MyComponent}.defaultPropTypes = {
+    ${1:MyComponent}.defaultProps = {
       ${2}
     }
     """

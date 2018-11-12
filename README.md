@@ -25,6 +25,6 @@ Prefix | Description
 `rts→` | `this.state.${}`
 `rtp→` | `this.props.${}`
 `rpt→` | `MyComponent.propTypes = {}`  
-`rdpt→` | `MyComponent.defaultPropTypes = {}`    
+`rdpt→` | `MyComponent.defaultProps = {}`    
 `rst→` | `const styles = {}`, often used in react native
 `rdst→` | destructuring of styles: `const {  } = styles`
