@@ -182,3 +182,7 @@
   'destructuring of styles':
     'prefix': 'rdst'
     'body': 'const { $1 } = styles'
+
+  'destructuring of proptypes':
+    'prefix': 'rdp'
+    'body': 'const { $1 } = this.props'

@@ -31,3 +31,4 @@ Prefix | Description
 `rdpt→` | `MyComponent.defaultProps = {}`    
 `rst→` | `const styles = {}`, often used in react native
 `rdst→` | destructuring of styles: `const {  } = styles`
+`rdp→` | destructuring of proptypes: `const {  } = this.props`  |  
