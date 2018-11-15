@@ -14,6 +14,7 @@ Prefix | Description
 `rfc→` | React functional component
 `rfcp→` | React functional component , without props  
 `rcc→` | React classful component
+`rccc→` | React classful component withou proptypes (cleaner)
 `rwm→` | Component will mount
 `rwu→` | Component will update
 `rdu→` | Component did update
@@ -22,6 +23,8 @@ Prefix | Description
 `ri→`  | Import statement without curly braces
 `rid→` | Import statement for ReactDom
 `rin→` | Import for react native
+`rip→` | Import for PropTypes
+`ris→`  |  Import styled components
 `rts→` | `this.state.${}`
 `rtp→` | `this.props.${}`
 `rpt→` | `MyComponent.propTypes = {}`  

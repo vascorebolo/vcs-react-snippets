@@ -28,8 +28,8 @@
     export default ${1:MyComponent}
     """
 
-  'stateless functional component, without props':
-    'prefix': 'rfcp'
+  'stateless functional component, without props (cleaner)':
+    'prefix': 'rfcc'
     'body': """
     import React from 'react'
 
@@ -59,6 +59,24 @@
         ${3}
       }
 
+      state = {}
+
+      render() {
+        return (
+
+        )
+      }
+    }
+
+    export default ${1:MyComponent}
+    """
+
+  'classful component without proptypes (more clean)':
+    'prefix': 'rccc'
+    'body': """
+    import React, { Component } from 'react'
+
+    class ${1:MyComponent} extends Component {
       state = {}
 
       render() {
@@ -118,6 +136,14 @@
   'import React Native statement':
     'prefix': 'rin'
     'body': 'import { $1 } from \'react-native\''
+
+  'import PropTypes':
+    'prefix': 'rip'
+    'body': 'import PropTypes from \'prop-types\''
+
+  'import styled-components':
+    'prefix': 'ris'
+    'body': 'import styled from \'styled-components\''
 
   'react this.props':
     'prefix': 'rtp'
