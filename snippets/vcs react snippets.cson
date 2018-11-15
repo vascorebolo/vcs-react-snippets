@@ -183,6 +183,10 @@
     'prefix': 'rdst'
     'body': 'const { $1 } = styles'
 
+  'destructuring of state':
+    'prefix': 'rds'
+    'body': 'const { $1 } = this.state'
+
   'destructuring of proptypes':
     'prefix': 'rdp'
     'body': 'const { $1 } = this.props'
