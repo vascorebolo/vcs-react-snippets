@@ -177,7 +177,7 @@
     'prefix': 'rts'
     'body': 'this.state.${1}'
 
-  'const styles object (often used in react native)':
+  'const styles object':
     'prefix': 'rst'
     'body': """
     const styles = {
@@ -185,6 +185,14 @@
         ${2}
       },
     }
+    """
+
+  'const styled component':
+    'prefix': 'rsc'
+    'body': """
+    const ${1:StyledComponent} = styled.${2:tag}\'
+      ${3:key}: ${4:value};
+    \'
     """
 
   'destructuring of styles':

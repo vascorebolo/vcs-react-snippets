@@ -12,9 +12,9 @@ Prefix | Description
 ---- |:--------
 `rcb→/cc→` | Curly braces with input inside, spaced `{ input }`
 `rfc→` | React functional component
-`rfcp→` | React functional component , without props  
+`rfcp→` | React functional component , without props (cleaner)
 `rcc→` | React classful component
-`rccc→` | React classful component withou proptypes (cleaner)
+`rccc→` | React classful component without proptypes (cleaner)
 `rwm→` | Component will mount
 `rwu→` | Component will update
 `rdu→` | Component did update
@@ -31,6 +31,7 @@ Prefix | Description
 `rpt→` | `MyComponent.propTypes = {}`  
 `rdpt→` | `MyComponent.defaultProps = {}`    
 `rst→` | `const styles = {}`, often used in react native
+`rsc→` | Styled Component initialization: `const $StyledComponent = styled.$tag```
 `rdst→` | destructuring of styles: `const {  } = styles`
 `rdp→` | destructuring of props: `const {  } = this.props`
 `rds→` | destructuring of state: `const {  } = this.state`  
