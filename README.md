@@ -10,7 +10,7 @@ It'll be finished in a near future, hopefully...
 
 Prefix | Description
 ---- |:--------
-`rcb→` | Curly braces with input inside, spaced `{ input }`
+`rcb→/cc→` | Curly braces with input inside, spaced `{ input }`
 `rfc→` | React functional component
 `rfcp→` | React functional component , without props  
 `rcc→` | React classful component

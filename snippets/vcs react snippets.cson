@@ -1,7 +1,11 @@
 '.source.js.jsx':
-  '{ something }':
+  '{ input }':
     'prefix': 'rcb'
     'body': '{ ${1} }'
+
+  '{ input } (hit tab when rcb shows)':
+    'prefix': 'cc'
+    'body': 'rcb'
 
   'stateless functional component':
     'prefix': 'rfc'
