@@ -141,6 +141,10 @@
     'prefix': 'rip'
     'body': 'import PropTypes from \'prop-types\''
 
+  'import PropTypes, with destructuring':
+    'prefix': 'ripd'
+    'body': 'import { $1 } from \'prop-types\''
+
   'import styled-components':
     'prefix': 'ris'
     'body': 'import styled from \'styled-components\''

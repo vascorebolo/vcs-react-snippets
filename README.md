@@ -1,7 +1,7 @@
 
 ![A screenshot of your package](https://upload.wikimedia.org/wikipedia/commons/8/80/Atom_editor_logo.svg)
 # vcs-react-snippets
-A group of useful and fruitful snippets for react development. No semi-colons, just [because](https://www.youtube.com/watch?v=gsfbh17Ax9I&t=11s).
+A group of useful and fruitful snippets for react and react native development. No semi-colons, just [because](https://www.youtube.com/watch?v=gsfbh17Ax9I&t=11s).
 Mostly for my own personal needs, check if it can be of any good to you 😀
 
 ## Usage
@@ -24,6 +24,7 @@ Prefix | Description
 `rid→` | Import statement for ReactDom
 `rin→` | Import for react native
 `rip→` | Import for PropTypes
+`ripd→` | Import for PropTypes, with destructuring    
 `ris→`  |  Import styled components
 `rts→` | `this.state.${}`
 `rtp→` | `this.props.${}`
@@ -31,5 +32,5 @@ Prefix | Description
 `rdpt→` | `MyComponent.defaultProps = {}`    
 `rst→` | `const styles = {}`, often used in react native
 `rdst→` | destructuring of styles: `const {  } = styles`
-`rdp→` | destructuring of proptypes: `const {  } = this.props`
-`rds→` | destructuring of state: `const {  } = this.state`   |  
+`rdp→` | destructuring of props: `const {  } = this.props`
+`rds→` | destructuring of state: `const {  } = this.state`  
