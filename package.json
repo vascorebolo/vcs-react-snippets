@@ -2,15 +2,17 @@
   "name": "vcs-react-snippets",
   "main": "./lib/vcs-react-snippets",
   "version": "0.1.0",
-  "description": "A useful and fruitful group of react snippets (no semi-colons here)",
+  "description": "A useful and fruitful group of react/react native snippets (no semi-colons here)",
   "keywords": [
     "react",
     "react-native",
-    "babel",
-    "es6",
+    "snippets",
     "js",
-    "es7",
-    "snippets"
+    "styled-components",
+    "no-semi-colons"
+    "es6",
+    "babel",
+    "es7"
   ],
   "activationCommands": {
     "atom-workspace": "vcs-react-snippets:toggle"

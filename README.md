@@ -10,9 +10,9 @@ Prefix | Description
 ---- |:--------
 `rcb→/cc→` | Curly braces with input inside, spaced `{ input }`
 `rfc→` | React functional component
-`rfcp→` | React functional component , without props (cleaner)
+`rfcp→` | React functional component, without props (cleaner)
 `rcc→` | React classful component
-`rccc→` | React classful component without proptypes (cleaner)
+`rccc→` | React classful component, without props (cleaner)
 `rwm→` | Component will mount
 `rwu→` | Component will update
 `rdu→` | Component did update
