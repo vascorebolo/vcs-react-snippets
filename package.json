@@ -1,7 +1,7 @@
 {
   "name": "vcs-react-snippets",
   "main": "./lib/vcs-react-snippets",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A useful and fruitful group of react/react native snippets (no semi-colons here)",
   "keywords": [
     "react",
