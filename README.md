@@ -27,6 +27,7 @@ Prefix | Description
 `ripd→` | Import for PropTypes, with destructuring    
 `ris→`  |  Import styled components
 `rts→` | `this.state.${}`
+`rsst→` | `this.setState()` 
 `rtp→` | `this.props.${}`
 `rpt→` | `MyComponent.propTypes = {}`  
 `rdpt→` | `MyComponent.defaultProps = {}`    

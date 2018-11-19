@@ -1,4 +1,4 @@
-'.source.js.jsx':
+'.source.js, .source.jsx':
   '{ input }':
     'prefix': 'rcb'
     'body': '{ ${1} }'
@@ -176,6 +176,10 @@
   'react this.state':
     'prefix': 'rts'
     'body': 'this.state.${1}'
+
+  'react setState':
+    'prefix': 'rsst'
+    'body': 'this.setState($1)'
 
   'const styles object':
     'prefix': 'rst'
