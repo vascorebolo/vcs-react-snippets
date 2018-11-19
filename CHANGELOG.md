@@ -1,4 +1,7 @@
-## 0.2.0 - Fixes
+## 0.1.2 - Fixes
+*Fix CHANGELOG history
+
+## 0.1.1 - Fixes
 * Fix ChangeLog
 * Fix copy
 
