@@ -5,8 +5,6 @@ A group of useful and fruitful snippets for react and react native development. 
 Mostly for my own personal needs, check if it can be of any good to you 😀
 
 ## Usage
-Work in progress.
-It'll be finished in a near future, hopefully...
 
 Prefix | Description
 ---- |:--------
@@ -19,6 +17,7 @@ Prefix | Description
 `rwu→` | Component will update
 `rdu→` | Component did update
 `rwp→` | Component will receive props
+`rsu→` | Component should update
 `rim→` | Import statement with curly braces
 `ri→`  | Import statement without curly braces
 `rid→` | Import statement for ReactDom
@@ -27,7 +26,7 @@ Prefix | Description
 `ripd→` | Import for PropTypes, with destructuring    
 `ris→`  |  Import styled components
 `rts→` | `this.state.${}`
-`rsst→` | `this.setState()` 
+`rsst→` | `this.setState()`
 `rtp→` | `this.props.${}`
 `rpt→` | `MyComponent.propTypes = {}`  
 `rdpt→` | `MyComponent.defaultProps = {}`    

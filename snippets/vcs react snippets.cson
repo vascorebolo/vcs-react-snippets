@@ -125,6 +125,14 @@
     }
     """
 
+  'component should update':
+    'prefix': 'rsw'
+    'body': """
+    shouldComponentUpdate(nextProps, nextState) {
+      ${1}
+    }
+    """
+
   'import statement with curly braces':
     'prefix': 'rim'
     'body': 'import { $1 } from \'${2}\''
