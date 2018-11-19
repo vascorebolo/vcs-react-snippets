@@ -190,9 +190,9 @@
   'const styled component':
     'prefix': 'rsc'
     'body': """
-    const ${1:StyledComponent} = styled.${2:tag}\'
+    const ${1:StyledComponent} = styled.${2:tag}\`
       ${3:key}: ${4:value};
-    \'
+    \`
     """
 
   'destructuring of styles':
