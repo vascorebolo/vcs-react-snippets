@@ -9,7 +9,7 @@
     "snippets",
     "js",
     "styled-components",
-    "no-semi-colons"
+    "no-semi-colons",
     "es6",
     "babel",
     "es7"
