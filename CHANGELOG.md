@@ -1,4 +1,4 @@
-## 0.1.2 - Add snippets
+## 0.1.3 - Add snippets
 * Add componentDidMount snippet
 
 ## 0.1.2 - Fixes
