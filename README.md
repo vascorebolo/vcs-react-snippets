@@ -14,6 +14,7 @@ Prefix | Description
 `rcc→` | React classful component
 `rccc→` | React classful component, without props (cleaner)
 `rwm→` | Component will mount
+`rdm`  | Component did mount
 `rwu→` | Component will update
 `rdu→` | Component did update
 `rwp→` | Component will receive props

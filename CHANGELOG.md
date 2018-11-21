@@ -1,5 +1,8 @@
+## 0.1.2 - Add snippets
+* Add componentDidMount snippet
+
 ## 0.1.2 - Fixes
-*Fix CHANGELOG history
+* Fix CHANGELOG history
 
 ## 0.1.1 - Fixes
 * Fix ChangeLog

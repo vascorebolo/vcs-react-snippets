@@ -101,6 +101,14 @@
     }
     """
 
+  'component did mount':
+    'prefix': 'rdm',
+    'body': """
+      componentDidMount() {
+        ${1}
+      }
+    """
+
   'component will update':
     'prefix': 'rwu'
     'body': """
