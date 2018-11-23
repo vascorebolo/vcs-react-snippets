@@ -1,3 +1,7 @@
+## 0.1.4 - Fixes
+* Fix CHANGELOG
+* Fix for some snippets
+
 ## 0.1.3 - Add snippets
 * Add componentDidMount snippet
 

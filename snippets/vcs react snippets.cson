@@ -226,3 +226,9 @@
   'destructuring of proptypes':
     'prefix': 'rdp'
     'body': 'const { $1 } = this.props'
+
+  'redux action\'s constant declaration':
+    'prefix': 'rxac'
+    'body': """
+      export const ${1:CONSTANT_NAME} = '$1'
+    """
