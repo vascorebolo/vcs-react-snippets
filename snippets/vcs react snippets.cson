@@ -23,7 +23,7 @@
       $2
     }
 
-    ${1:MyComponent}.defaultPropTypes = {
+    ${1:MyComponent}.defaultProps = {
       $3
     }
 
