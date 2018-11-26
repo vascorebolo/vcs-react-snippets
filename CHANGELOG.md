@@ -1,3 +1,6 @@
+## 0.1.5 - Fixes
+* Fix functional component snippet
+
 ## 0.1.4 - Fixes
 * Fix CHANGELOG
 * Fix for some snippets
