@@ -1,3 +1,7 @@
+## 0.1.6 - Adds
+* Add redux action constant declaration snippet
+* Add comment for documentation snippet
+
 ## 0.1.5 - Fixes
 * Fix functional component snippet
 

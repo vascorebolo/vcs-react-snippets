@@ -227,6 +227,14 @@
     'prefix': 'rdp'
     'body': 'const { $1 } = this.props'
 
+  'long comment for documentation':
+    'prefix': '/**'
+    'body': """
+    /**
+    * ${1:comment}
+    **/
+    """
+
   'redux action\'s constant declaration':
     'prefix': 'rxac'
     'body': """
