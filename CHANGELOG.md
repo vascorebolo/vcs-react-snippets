@@ -1,3 +1,6 @@
+## 0.1.7 - Fixes
+* Fix comment snippet
+
 ## 0.1.6 - Adds
 * Add redux action constant declaration snippet
 * Add comment for documentation snippet
