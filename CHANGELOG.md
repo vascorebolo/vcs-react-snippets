@@ -1,3 +1,7 @@
+## 0.1.8 - Fixes
+* Add constructor snippet
+* Fix description of snippet
+
 ## 0.1.7 - Fixes
 * Fix comment snippet
 

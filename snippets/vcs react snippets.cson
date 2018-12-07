@@ -141,6 +141,18 @@
     }
     """
 
+  'component constructor':
+    'prefix': 'rcon'
+    'body': """
+      constructor(props) {
+        super(props)
+
+        const { $1 } = props
+
+        this.state = { $2 }
+      }
+    """
+
   'import statement with curly braces':
     'prefix': 'rim'
     'body': 'import { $1 } from \'${2}\''
@@ -181,7 +193,7 @@
     }
     """
 
-  'react default Component.propTypes':
+  'react Component.defaultProps':
     'prefix': 'rdpt'
     'body': """
     ${1:MyComponent}.defaultProps = {
