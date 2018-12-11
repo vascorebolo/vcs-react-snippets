@@ -11,7 +11,7 @@
     'prefix': 'rfc'
     'body': """
     import React from 'react'
-    import PropTypes from 'prop-types'
+    import { $2 } from 'prop-types'
 
     const ${1:MyComponent} = () => {
       return (
@@ -20,11 +20,11 @@
     }
 
     ${1:MyComponent}.propTypes = {
-      $2
+      $3
     }
 
     ${1:MyComponent}.defaultProps = {
-      $3
+      $4
     }
 
     ${1:MyComponent}.displayName = '${1:MyComponent}'
@@ -52,15 +52,15 @@
     'prefix': 'rcc'
     'body': """
     import React, { Component } from 'react'
-    import PropTypes from 'prop-types'
+    import { $2 } from 'prop-types'
 
     class ${1:MyComponent} extends Component {
       static propTypes = {
-        ${2}
+        ${3}
       }
 
       static defaultProps = {
-        ${3}
+        ${4}
       }
 
       state = {}
@@ -235,7 +235,7 @@
     'prefix': 'rds'
     'body': 'const { $1 } = this.state'
 
-  'destructuring of proptypes':
+  'destructuring of props':
     'prefix': 'rdp'
     'body': 'const { $1 } = this.props'
 

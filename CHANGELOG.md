@@ -1,3 +1,7 @@
+## 0.1.9 - Improvements
+* Made component scaffolding snippets with propTypes destructuring
+* Fix readme
+
 ## 0.1.8 - Fixes
 * Add constructor snippet
 * Fix description of snippet

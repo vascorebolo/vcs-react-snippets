@@ -13,6 +13,7 @@ Prefix | Description
 `rfcp→` | React functional component, without props (cleaner)
 `rcc→` | React classful component
 `rccc→` | React classful component, without props (cleaner)
+`rcon` | Component constructor
 `rwm→` | Component will mount
 `rdm`  | Component did mount
 `rwu→` | Component will update
