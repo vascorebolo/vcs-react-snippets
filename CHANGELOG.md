@@ -1,4 +1,7 @@
-## 0.2 - Add mapStateToProps
+## 0.1.11 - Fix CHANGELOG
+* Fix wrong CHANGELOG tag
+
+## 0.1.10 - Add mapStateToProps
 * Add mapStateToProps snippet
 
 ## 0.1.9 - Improvements
