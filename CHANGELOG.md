@@ -1,3 +1,6 @@
+## 0.2 - Add mapStateToProps
+* Add mapStateToProps snippet
+
 ## 0.1.9 - Improvements
 * Made component scaffolding snippets with propTypes destructuring
 * Fix readme
