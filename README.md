@@ -38,4 +38,5 @@ Prefix | Description
 `rdp→` | destructuring of props: `const {  } = this.props`
 `rds→` | destructuring of state: `const {  } = this.state`  
 `/**→` | long comment for documentation purposes `/** some comment **/`  
-`rxac→`| constant declaration typically used in redux actions `export ACTION_NAME = 'ACTION_NAME'`  
+`rxac→`| constant declaration typically used in redux actions `export ACTION_NAME = 'ACTION_NAME'`
+`rxmsp→`| redux mapStateToProps

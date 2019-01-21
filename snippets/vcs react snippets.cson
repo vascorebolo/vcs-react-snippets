@@ -252,3 +252,13 @@
     'body': """
       export const ${1:CONSTANT_NAME} = '$1'
     """
+
+  'redux: mapStateToProps':
+    'prefix': 'rxmsp'
+    'body': """
+    const mapStateToProps = (state) => {
+      const { $1 } = state
+
+      return { $2 }
+    }
+    """
